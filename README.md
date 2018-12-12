@@ -62,6 +62,20 @@ To run the algorithms :
     python RSA-ElGamal/main.py
 
 
+Whenever you run the main, you can select which following algorithm to work with
+    1 - RSA 
+    2 - El Gamal
+
+And then, you can select the following options 
+    1 - Generate Key Pair
+    2 - Encrypt a message
+    3 - Decryption a cipher text
+    4 - Eavesdrop and decrypt the message
+    5 - Choose other encryption algorithm 
+
+Note: Keys must be typed without brackets as input:
+    Please enter the public key ( (g, p, h) for El-Gamal /(e,n) for RSA ): 20821325952358623, 321537506783761603
+
 
 Unit Tests
 ----------------
@@ -105,7 +119,7 @@ The output shows how it failed.
 Contribute
 ------------------
 
-- Source Code:
+- Source Code:https://github.com/aslit/RSA-ElGamal
 
 Compatibility
 ------------------
